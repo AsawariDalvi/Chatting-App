@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#075E54</item> <!-- Blue -->
+        <item name="colorPrimaryDark">#075E54</item> <!-- Darker Blue -->
+        <item name="colorAccent">#075E54</item> <!-- Pink Accent -->
+
+        <!-- Customize your status bar and navigation bar colors if you like -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">#075E54</item>
+
+        <!-- Optional: set default text appearances -->
+        <item name="android:textColorPrimary">#212121</item>
+        <item name="android:textColorSecondary">#075E54</item>
+    </style>  set the status bar colour these #075E54
+
+
+    <style name="CustomPopupMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <!-- Change background -->
+        <item name="android:popupBackground">@color/white</item>
+
+        <!-- Change text color -->
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AttachmentItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="AttachmentIcon">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="AttachmentText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

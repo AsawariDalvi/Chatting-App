@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="whatsapp_green">#075E54</color>
+    <color name="menuBackground">#FFFFFF</color>
+    <color name="menuTextColor">#000000</color>
+
+</resources>

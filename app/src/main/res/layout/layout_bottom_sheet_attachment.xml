@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <GridLayout
+        android:id="@+id/gridAttachment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:columnCount="4"
+        android:rowCount="3"
+        android:useDefaultMargins="true"
+        android:layout_gravity="center">
+
+        <!-- Gallery -->
+        <LinearLayout
+            android:id="@+id/item_gallery"
+            style="@style/AttachmentItem" >
+            <ImageView android:src="@drawable/icon_gallery" style="@style/AttachmentIcon"/>
+            <TextView android:text="Gallery" style="@style/AttachmentText"/>
+        </LinearLayout>
+
+        <!-- Camera -->
+        <LinearLayout
+            android:id="@+id/item_camera"
+            style="@style/AttachmentItem" >
+            <ImageView android:src="@drawable/icon_camera" style="@style/AttachmentIcon"/>
+            <TextView android:text="Camera" style="@style/AttachmentText"/>
+        </LinearLayout>
+
+        <!-- Location -->
+        <LinearLayout
+            android:id="@+id/item_location"
+            style="@style/AttachmentItem" >
+            <ImageView android:src="@drawable/icon_location" style="@style/AttachmentIcon"/>
+            <TextView android:text="Location" style="@style/AttachmentText"/>
+        </LinearLayout>
+
+        <!-- Contact -->
+        <LinearLayout
+            android:id="@+id/item_contact"
+            style="@style/AttachmentItem" >
+            <ImageView android:src="@drawable/icon_contact" style="@style/AttachmentIcon"/>
+            <TextView android:text="Contact" style="@style/AttachmentText"/>
+        </LinearLayout>
+
+        <!-- Document -->
+        <LinearLayout
+            android:id="@+id/item_document"
+            style="@style/AttachmentItem" >
+            <ImageView android:src="@drawable/icon_document" style="@style/AttachmentIcon"/>
+            <TextView android:text="Document" style="@style/AttachmentText"/>
+        </LinearLayout>
+
+        <!-- Audio -->
+        <LinearLayout
+            android:id="@+id/item_audio"
+            style="@style/AttachmentItem" >
+            <ImageView android:src="@drawable/icon_audio" style="@style/AttachmentIcon"/>
+            <TextView android:text="Audio" style="@style/AttachmentText"/>
+        </LinearLayout>
+
+        <!-- Poll -->
+        <LinearLayout
+            android:id="@+id/item_poll"
+            style="@style/AttachmentItem" >
+            <ImageView android:src="@drawable/icon_poll" style="@style/AttachmentIcon"/>
+            <TextView android:text="Poll" style="@style/AttachmentText"/>
+        </LinearLayout>
+
+        <!-- Payment -->
+        <LinearLayout
+            android:id="@+id/item_payment"
+            style="@style/AttachmentItem" >
+            <ImageView android:src="@drawable/icon_payment" style="@style/AttachmentIcon"/>
+            <TextView android:text="Payment" style="@style/AttachmentText"/>
+        </LinearLayout>
+
+        <!-- Event -->
+        <LinearLayout
+            android:id="@+id/item_event"
+            style="@style/AttachmentItem" >
+            <ImageView android:src="@drawable/icon_event" style="@style/AttachmentIcon"/>
+            <TextView android:text="Event" style="@style/AttachmentText"/>
+        </LinearLayout>
+
+        <!-- AI Images -->
+        <LinearLayout
+            android:id="@+id/item_ai"
+            style="@style/AttachmentItem" >
+            <ImageView android:src="@drawable/icon_ai_images" style="@style/AttachmentIcon"/>
+            <TextView android:text="AI Images" style="@style/AttachmentText"/>
+        </LinearLayout>
+
+    </GridLayout>
+</LinearLayout>

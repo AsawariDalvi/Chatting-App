@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgEditProfileProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_profile"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="19dp"/>
+
+    <EditText
+        android:id="@+id/etEditProfileName"
+        android:hint="Enter your name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etEditProfilePhone"
+        android:hint="Enter phone number"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/EditProfileBtnSave"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#075E54"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

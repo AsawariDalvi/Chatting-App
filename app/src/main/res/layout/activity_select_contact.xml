@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Inside activity_select_contact.xml -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/selectContactToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:titleTextColor="@android:color/white"
+        app:title="Select Contact"/>
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchViewSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search contact" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewSelect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

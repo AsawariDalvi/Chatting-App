@@ -1,0 +1,36 @@
+<resources>
+
+    <string-array name="country_codes">
+        <item>IN +91</item>
+        <item>US +1</item>
+        <item>UK +44</item>
+        <item>AU +61</item>
+        <item>CA +1</item>
+        <item>DE +49</item>
+        <item>FR +33</item>
+        <item>IT +39</item>
+        <item>ES +34</item>
+        <item>RU +7</item>
+        <item>CN +86</item>
+        <item>JP +81</item>
+        <item>KR +82</item>
+        <item>BR +55</item>
+        <item>ZA +27</item>
+        <item>SG +65</item>
+        <item>MY +60</item>
+        <item>NZ +64</item>
+        <item>AE +971</item>
+        <item>SA +966</item>
+    </string-array>
+
+
+    <!-- Existing strings -->
+    <string-array name="sync_accounts">
+        <item>Phone Storage</item>
+        <item>Email</item>
+    </string-array>
+
+    <string name="app_name">chatting app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
